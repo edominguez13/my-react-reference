@@ -109,11 +109,13 @@ It included the following files:
 
 ## Start the app ##
 
+Run the following commands to enter the project directory and then run the server:
+
 ```
 cd firstapp
 npm start
 ```
-After you run the commands above a website will open.
+After you run the commands above a website will open with the React logo, and in your terminal will appear the following output:
 
 ```
           react-scripts  >=2.1.4

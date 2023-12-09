@@ -22,7 +22,7 @@ Please update your version of Node.
 
 To update Node.js run: `nvm install latest`
 
-To update npm run: `npm instal -g npm`
+To update npm run: `npm install -g npm`
 
 Or just download and install the latest version in the official page: [Node.js Downloads.](https://nodejs.org/en/download/)
 
@@ -142,3 +142,12 @@ webpack compiled successfully
 
 Press Ctrl + C
 
+## ERROR: react-scripts file missing ##
+
+It is an error about react-scripts file missing in your node_modules/ directory at the time of installation.
+
+Check your react-script dependency is avaliable or not in package.json.
+
+If not available then add it manually via:
+
+```npm install react-scripts --save```

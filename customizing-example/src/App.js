@@ -9,7 +9,7 @@ import Intro2 from './components/Intro2';
 import Intro3 from './components/Intro3';
 import Footer from './components/Footer';
 
-
+import Logo from './components/Logo';
 
 // function App() {
 //   return (
@@ -35,7 +35,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Heading />
+      <Heading>
+        <Logo />
+      </Heading>
       <Nav />
       <Promo />
       <Intro1 />

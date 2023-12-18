@@ -10,6 +10,7 @@ import Intro3 from './components/Intro3';
 import Footer from './components/Footer';
 
 import Logo from './components/Logo';
+import Btn from './components/Btn';
 
 // function App() {
 //   return (
@@ -39,6 +40,7 @@ function App() {
         <Logo />
       </Heading>
       <Nav />
+      <Btn />
       <Promo />
       <Intro1 />
       <Intro2 />

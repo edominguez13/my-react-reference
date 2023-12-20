@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 import Heading from './components/Heading';
@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 
 import Logo from './components/Logo';
 import Btn from './components/Btn';
+import InputComponent from './components/inputComponent';
 
 // function App() {
 //   return (
@@ -46,6 +47,7 @@ function App() {
       <Intro2 />
       <Intro3 />
       <Footer />
+      <InputComponent />
     </div>
   )
 }

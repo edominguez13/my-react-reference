@@ -1,3 +1,5 @@
+/* Hooks */
+
 /* We import the useState function to create the state variable and the function that will 
 update the state */
 import { useState } from 'react';
@@ -22,7 +24,10 @@ export default function InputComponent() {
 
     return (
         <> <br></br>
-            <h1><strong>Using state </strong></h1>
+            <h1>--Using the useState Hook--</h1>
+            <p>the <strong>useState hook</strong> does two things. It creates a state variable 
+            with an initial value that represents the current state, which in this example is 
+            <em>inputText</em>. And it creates a function to set that states variable value, which in this case is <em>setText</em>.</p>
 
             {/* onChange will is an event listener that calls the funcition each tine the value of 
             input.value changes in this case the inputText variable */}

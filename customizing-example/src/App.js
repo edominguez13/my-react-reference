@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import Logo from './components/Logo';
 import Btn from './components/Btn';
 import InputComponent from './components/inputComponent';
+import RegisterForm from './components/RegisterForm';
+import TextInputWithFocusButton from './components/TextInputWithFocusButton';
 
 // function App() {
 //   return (
@@ -48,6 +50,8 @@ function App() {
       <Intro3 />
       <Footer />
       <InputComponent />
+      <RegisterForm />
+      <TextInputWithFocusButton />
     </div>
   )
 }

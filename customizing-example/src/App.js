@@ -16,27 +16,7 @@ import RegisterForm from './components/RegisterForm';
 import TextInputWithFocusButton from './components/TextInputWithFocusButton';
 
 import MiniAppMealsCounter from './components/MiniAppMealsCounter';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+import MiniAppUseReducer from './components/MiniAppUseReducer';
 
 function App() {
   return (
@@ -51,10 +31,14 @@ function App() {
       <Intro2 />
       <Intro3 />
       <Footer />
+      {/* useState examples: */}
       <InputComponent />
       <RegisterForm />
       <TextInputWithFocusButton />
+      {/* useContext example */}
       <MiniAppMealsCounter />
+      {/* useReducer Example: */}
+      <MiniAppUseReducer />
     </div>
   )
 }

@@ -34,6 +34,13 @@ const MiniAppFirstExample = () => {
             {/* Btn is and event Listener example */}
             <Btn />
             <Promo />
+            <h2>mapped</h2>
+            {introTexts.map((texts, index) => (
+                <div>
+                    <Intro1 texts={texts}/>
+                </div>
+            ))}
+            <h2>not mapped</h2>
             <Intro1 texts={introTexts[0]}/>
             <Intro1 texts={introTexts[1]}/>
             <Intro1 texts={introTexts[2]}/>

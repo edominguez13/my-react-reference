@@ -34,16 +34,12 @@ const MiniAppFirstExample = () => {
             {/* Btn is and event Listener example */}
             <Btn />
             <Promo />
-            <h2>mapped</h2>
+            {/* Second refractor of the code, mapping the array to be more concise */}
             {introTexts.map((texts, index) => (
                 <div>
-                    <Intro1 texts={texts}/>
+                    <Intro1 index={index} texts={texts}/>
                 </div>
             ))}
-            <h2>not mapped</h2>
-            <Intro1 texts={introTexts[0]}/>
-            <Intro1 texts={introTexts[1]}/>
-            <Intro1 texts={introTexts[2]}/>
             <Footer />
         </div>
     )

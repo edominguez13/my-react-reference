@@ -15,6 +15,8 @@ import InputComponent from './components/inputComponent';
 import RegisterForm from './components/RegisterForm';
 import TextInputWithFocusButton from './components/TextInputWithFocusButton';
 
+import MiniAppMealsCounter from './components/MiniAppMealsCounter';
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -52,6 +54,7 @@ function App() {
       <InputComponent />
       <RegisterForm />
       <TextInputWithFocusButton />
+      <MiniAppMealsCounter />
     </div>
   )
 }

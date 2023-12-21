@@ -1,3 +1,5 @@
+/* This example has event listeners and functions */
+
 function Btn() {
 
     const clickHandler = () => console.log("Clicked!");

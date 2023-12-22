@@ -10,6 +10,9 @@ import TextInputWithFocusButton from './components/TextInputWithFocusButton';
 import MiniAppMealsCounter from './components/MiniAppMealsCounter';
 import MiniAppUseReducer from './components/MiniAppUseReducer';
 
+import { Routes, Route, Link } from 'react-router-dom';
+
+Routes, Route,Link
 function App() {
   return (
     <div className="App">

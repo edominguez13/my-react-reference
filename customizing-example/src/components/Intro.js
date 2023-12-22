@@ -1,4 +1,4 @@
-function Intro1(props) {
+function Intro(props) {
         return (
             <div className="blog-post-intro">
                 <h2>{props.texts.t_h2}</h2>
@@ -10,4 +10,4 @@ function Intro1(props) {
         );
     };
     
-    export default Intro1;
+    export default Intro;

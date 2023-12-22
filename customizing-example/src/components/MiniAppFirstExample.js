@@ -1,7 +1,7 @@
 import Heading from './Heading';
 import Nav from './Nav';
 import Promo from './Promo';
-import Intro1 from './Intro1';
+import Intro from './Intro';
 import Footer from './Footer';
 
 import Logo from './Logo';
@@ -23,7 +23,7 @@ const MiniAppFirstExample = () => {
             {/* Second refractor of the code, mapping the array to be more concise */}
             {introData.map((texts, index) => (
                 <div>
-                    <Intro1 index={index} texts={texts}/>
+                    <Intro index={index} texts={texts}/>
                 </div>
             ))}
             <Footer />

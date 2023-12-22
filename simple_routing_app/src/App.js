@@ -17,6 +17,8 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about-us' element={<About />} />
+        {/* The route component can have a opening and closing version */}
+        <Route path='/about-us' element={<About />}></Route>
       </Routes>
     </div>
   );

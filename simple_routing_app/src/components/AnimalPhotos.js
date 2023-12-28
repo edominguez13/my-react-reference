@@ -6,7 +6,11 @@ import cat from '../assets/images/cat-img-small.png';
 const CatImage = () => {
     return (
         <>
-            <img src={cat} alt="a cat image" />
+            <img 
+                height={100}
+                src={cat} 
+                alt="a cat image"
+            />
         </>
 
     )
@@ -17,7 +21,11 @@ const CatImage = () => {
 const DogImage = () => {
     return (
         <>
-            <img src={require('../assets/images/dog-img-small.png')} alt="a dog picture" />
+            <img
+                height={100}
+                src={require('../assets/images/dog-img-small.png')} 
+                alt="a dog picture" 
+            />
         </>
     )
 }

@@ -10,6 +10,9 @@ import LogicalAndExample from './components/LogicalAndExample';
 
 import { CatImage, DogImage } from './components/AnimalPhotos';
 
+import ImportedImages from './components/ImportedImages';
+import MyVideo from './components/MyVideo';
+
 
 const App = () => {
   return (
@@ -19,16 +22,19 @@ const App = () => {
       <nav>
         <Link to='/' className='nav-item'>Homepage</Link>
         <Link to='/about-us' className='nav-item'>About Us</Link>
+        <Link to='/mustang-images' className='nav-item'>Mustang Images</Link>
+        <Link to='/my-video' className='nav-item'>My video</Link>
       </nav>
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about-us' element={<About />} />
         {/* The route component can have a opening and closing version */}
-        <Route path='/about-us' element={<About />}></Route>
+        <Route path='/mustang-images' element={<ImportedImages />}></Route>
+        <Route path='/my-video' element={<MyVideo />}></Route>
         
       </Routes>
       {/* Interesting examples of Conditional Rendering  */}
-      <LogicalAndExample />
+      {/* <LogicalAndExample /> */}
     </div>
   );
 }

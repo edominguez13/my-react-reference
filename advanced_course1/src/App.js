@@ -1,13 +1,19 @@
 //import logo from './logo.svg';
 import './App.css';
 
-import users from "./assets/mock_data.js";
+import { users, desserts } from "./assets/mock_data.js";
 
 import BasicList from './components/BasicList';
+import FoodListByCalories from './components/FoodListByCalories.js';
+
+
 
 function App() {
   return (
-    <BasicList data={users} />
+    <div>
+        <BasicList data={users} />
+        <FoodListByCalories data={desserts} />
+    </div>
   );
 }
 

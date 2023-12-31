@@ -1,5 +1,6 @@
 // transforming the data
 const BasicList = (props) => {
+
     const data_list = props.data.map(person => {
         const user_fullName = `${person.first_name} ${person.last_name}`
         return (

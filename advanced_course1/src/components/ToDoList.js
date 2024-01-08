@@ -1,6 +1,9 @@
+/* In this example we render a table instead of an unordered list
+ */
+
+
 import { useState } from 'react';
 import { ToDo } from './ToDo';
-
 
 
 const ToDoList = props => {
@@ -10,7 +13,7 @@ const ToDoList = props => {
     const reverseOrder = () => {
         /* Never mutate the original data, use the spread operator to create a copy and then mutate the copy */
         setToDos([...toDos].reverse());
-      }
+    }
 
     return (
         <div>

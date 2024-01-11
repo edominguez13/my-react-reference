@@ -5,6 +5,8 @@ import { users, desserts, toDoData } from "./assets/mock_data.js";
 
 import BasicList from './components/BasicList';
 import ControlledForm from './components/ControlledForm.js';
+import CreateAccountForm from './components/CreateAccountForm.js';
+import FeedbackForm from './components/FeedbackForm.js';
 import FoodListByCalories from './components/FoodListByCalories.js';
 import ToDoList from './components/ToDoList.js';
 import UncontrolledForm from './components/UncontrolledForm.js';
@@ -20,6 +22,8 @@ function App() {
         <ToDoList data={toDoData} />
         <UncontrolledForm />
         <ControlledForm />
+        <FeedbackForm />
+        <CreateAccountForm />
     </div>
   );
 }

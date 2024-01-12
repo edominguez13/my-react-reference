@@ -11,8 +11,8 @@ import FoodListByCalories from './components/FoodListByCalories.js';
 import ToDoList from './components/ToDoList.js';
 import UncontrolledForm from './components/UncontrolledForm.js';
 import { UserContextConsumer } from './components/UserContextConsumer.js';
-import { UserProvider } from './providers/UserContext.js';
-
+// import { UserProvider } from './providers/UserContext.js';
+import ReactMemoExample from './components/ReactMemoExample.js';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
         <FeedbackForm />
         <CreateAccountForm />
         <UserContextConsumer />
+        <ReactMemoExample />
       {/* </UserProvider> */}
     </div>
   );

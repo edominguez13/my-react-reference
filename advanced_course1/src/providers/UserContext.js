@@ -35,7 +35,7 @@ const UserContext = createContext(undefined);
         In a real world scenario we will have to fetch the user info and then set it as State.                               */
 export const UserProvider = ({ children }) => {
     const [user] = useState({
-        name: "Enrique",
+        name: "Enrique Dominguez",
         email: "john@example.com",
         dob: "01/01/2000",
     });

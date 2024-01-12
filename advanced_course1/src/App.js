@@ -17,7 +17,7 @@ import { UserProvider } from './providers/UserContext.js';
 function App() {
   return (
     <div>
-      <UserProvider>
+      {/* <UserProvider> */}
         <FoodListByCalories data={desserts} />
         {/* Example of the correct use of Keys with the map function */}
         <ToDoList data={toDoData} />
@@ -26,7 +26,7 @@ function App() {
         <FeedbackForm />
         <CreateAccountForm />
         <UserContextConsumer />
-      </UserProvider>
+      {/* </UserProvider> */}
     </div>
   );
 }

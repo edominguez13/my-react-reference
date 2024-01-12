@@ -11,7 +11,7 @@ import MiniAppMealsCounter from './components/MiniAppMealsCounter';
 import MiniAppUseReducer from './components/MiniAppUseReducer';
 
 import { Routes, Route, Link } from 'react-router-dom';
-
+import { UserProvider } from './providers/UserContext';
 
 function App() {
   return (

@@ -10,13 +10,14 @@ import FeedbackForm from './components/FeedbackForm.js';
 import FoodListByCalories from './components/FoodListByCalories.js';
 import ToDoList from './components/ToDoList.js';
 import UncontrolledForm from './components/UncontrolledForm.js';
-
+import { UserContextConsumer } from './components/UserContextConsumer.js';
+import { UserProvider } from './providers/UserContext.js';
 
 
 function App() {
   return (
     <div>
-        <BasicList data={users} />
+      <UserProvider>
         <FoodListByCalories data={desserts} />
         {/* Example of the correct use of Keys with the map function */}
         <ToDoList data={toDoData} />
@@ -24,6 +25,8 @@ function App() {
         <ControlledForm />
         <FeedbackForm />
         <CreateAccountForm />
+        <UserContextConsumer />
+      </UserProvider>
     </div>
   );
 }

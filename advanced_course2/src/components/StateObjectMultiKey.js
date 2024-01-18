@@ -23,6 +23,8 @@ export default function StateObjectMultiKey() {
    }*/ 
 
    //Method 2
+
+   /* prevState can have any name */
 function updateGreeting() { 
     setGreeting(prevState => { 
         return {...prevState, place: "World-Wide Web"} 

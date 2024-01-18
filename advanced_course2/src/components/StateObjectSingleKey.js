@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function StateObjectSingleKey() { 
   const [greeting, setGreeting] = useState({ greet: "Hello, World" }); 
   //console.log(greeting, setGreeting); 
-    let count = 0;
+
   function updateGreeting() { 
     const newGreeting = {...greeting, hola:"hola"}; 
     newGreeting.greet = "Hello, World-Wide Web"; 

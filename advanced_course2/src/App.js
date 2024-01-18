@@ -5,6 +5,7 @@ import StateObjectSingleKey from './components/StateObjectSingleKey';
 import StateObjectMultiKey from './components/StateObjectMultiKey';
 import GoalsListApp from './components/GoalsListApp';
 import GiftCardPage from './components/GiftCardPage';
+import UseEffectExample from './components/UseEffectExample';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <StateObjectMultiKey />
       <GoalsListApp />
       <GiftCardPage />
+      <UseEffectExample />
     </div>
   );
 }

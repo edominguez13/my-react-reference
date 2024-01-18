@@ -36,6 +36,7 @@ export default function GiftCardPage() {
       <p>
         {giftCard.instructions}
       </p>
+      {/* JSX expression that conditionaly shows and element */}
       {
         giftCard.valid && (
           <button onClick={spendGiftCard}>

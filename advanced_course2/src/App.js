@@ -10,6 +10,7 @@ import FetchRandomUser from './components/FetchRandomUser';
 import UseReducerExample from './components/UseReducerExample';
 import UseRefExample from './components/UseRefExample';
 import CustomHookExample from './components/CustomHookExample';
+import PreviousDayCustom from './components/PreviousDayCustom';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <UseRefExample />
       {/* Custom Hook Example: */}
       <CustomHookExample />
+      <PreviousDayCustom />
     </div>
   );
 }

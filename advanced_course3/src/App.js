@@ -5,8 +5,7 @@ import LiveOrders from './components/LiveOrders';
 import MouseTrackingHOC from './components/MouseTrackingHOC';
 import RadioExample from './components/RadioExample';
 import SpreadProps from './components/SpreadProps';
-
-
+import MenuItemsRenderExample from './components/MenuItemsRenderExample';
 
 function App() {
   return (
@@ -18,8 +17,12 @@ function App() {
       <RadioExample />
       {/* Spread operator props example */}
       <SpreadProps />
-      {/* Higher order components examples: */}
-      <MouseTrackingHOC />
+      {/* Code reusability */}
+        {/* Higher order components examples: */}
+        <MouseTrackingHOC />
+        {/* Render patter examples: */}
+        <MenuItemsRenderExample />
+
     </div>
   );
 }

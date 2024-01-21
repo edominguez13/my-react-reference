@@ -6,6 +6,7 @@ import MouseTrackingHOC from './components/MouseTrackingHOC';
 import RadioExample from './components/RadioExample';
 import SpreadProps from './components/SpreadProps';
 import MenuItemsRenderExample from './components/MenuItemsRenderExample';
+import MouseTrackingRender from './components/MouseTrackingRender';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <MouseTrackingHOC />
         {/* Render patter examples: */}
         <MenuItemsRenderExample />
-
+        <MouseTrackingRender />
     </div>
   );
 }

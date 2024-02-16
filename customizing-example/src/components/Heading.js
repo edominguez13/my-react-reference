@@ -4,7 +4,6 @@ function Heading(props) {
       <h1>This is the Heading</h1>
       {props.children}
       </>
-      
     )
   }
 
